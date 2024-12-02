@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferme Agricole</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Inclure la bibliothèque Leaflet pour les cartes -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à la Ferme d'Afrique</h1>
+    </header>
+    <main>
+        <!-- Section de la carte principale -->
+        <section id="map-section">
+            <h2>Localisation de la Ferme</h2>
+            <div id="main-map" style="width: 100%; height: 400px;"></div>
+        </section>
+
+        <!-- Section contact -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Nous sommes présents dans trois pays d'Afrique de l'Ouest. Voici nos coordonnées :</p>
+        
+            <div class="contact-locations">
+                <!-- Contact pour le Togo -->
+                <div class="location">
+                    <h3>Togo</h3>
+                    <p><strong>Adresse :</strong> 123 Rue de la Ferme, Lomé, Togo</p>
+                    <p><strong>Téléphone :</strong> +228 90 12 34 56</p>
+                    <p><strong>Email :</strong> <a href="mailto:contact-togo@ferme-africa.com">contact-togo@ferme-africa.com</a></p>
+                </div>
+        
+                <!-- Contact pour le Bénin -->
+                <div class="location">
+                    <h3>Bénin</h3>
+                    <p><strong>Adresse :</strong> 456 Avenue des Champs, Cotonou, Bénin</p>
+                    <p><strong>Téléphone :</strong> +229 91 23 45 67</p>
+                    <p><strong>Email :</strong> <a href="mailto:contact-benin@ferme-africa.com">contact-benin@ferme-africa.com</a></p>
+                </div>
+        
+                <!-- Contact pour la Côte d'Ivoire -->
+                <div class="location">
+                    <h3>Côte d'Ivoire</h3>
+                    <p><strong>Adresse :</strong> Zone Agricole, Abidjan, Côte d'Ivoire</p>
+                    <p><strong>Téléphone :</strong> +225 07 89 12 34</p>
+                    <p><strong>Email :</strong> <a href="mailto:contact-ci@ferme-africa.com">contact-ci@ferme-africa.com</a></p>
+                </div>
+            </div>
+        
+            <div class="contact-map">
+                <h3>Localisation sur la carte</h3>
+                <p>Retrouvez nos emplacements sur la carte ci-dessous :</p>
+                <div id="contact-map" style="width: 100%; height: 400px;"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ferme Agricole - Tous droits réservés</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
