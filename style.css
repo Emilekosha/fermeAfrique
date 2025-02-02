@@ -1,119 +1,116 @@
 /* Réinitialisation et styles de base */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #3d5785;
-    color: white;
-    padding: 15px;
-    text-align: center;
+  background-color: #3d5785;
+  color: white;
+  padding: 15px;
+  text-align: center;
 }
 
-header h1{
-    font-size: 35px ;
+header h1 {
+  font-size: 35px;
 }
 
-header span{
-    text-transform: capitalize;
-    color: yellow;
-    text-decoration: underline;
+header span {
+  text-transform: capitalize;
+  color: yellow;
+  text-decoration: underline;
 }
 
-header p{
-    font-size: 18px;
-    color: rgb(131, 255, 127);
+header p {
+  font-size: 18px;
+  color: rgb(131, 255, 127);
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 h2 {
-    color: #010734;
+  color: #010734;
 }
 
 /* Carte */
 #map {
-    height: 60vh;
-    width: 100%;
-    margin-top: 10px;
+  height: 60vh;
+  width: 100%;
+  margin-top: 10px;
 }
-
 
 /* Section Contact */
 #contact {
-    background-color: #f8f9fa;
-    padding: 50px 20px;
-    color: #333;
-    text-align: center;
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  color: #333;
+  text-align: center;
 }
 
 #contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #0056b3;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0056b3;
 }
 
 #contact p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
 }
 
 .contact-locations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .location {
-    background: #ffffff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    text-align: left;
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
 }
 
 .location h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #0056b3;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0056b3;
 }
 
 .location p {
-    font-size: 1rem;
-    margin: 5px 0;
+  font-size: 1rem;
+  margin: 5px 0;
 }
 
 .location a {
-    color: #007bff;
-    text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
 }
 
 .location a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .contact-map {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 #map {
-    border: 1px solid #ddd;
-    border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
-
-
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1d416c;
-    color: white;
-    margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #1d416c;
+  color: white;
+  margin-top: 20px;
 }
