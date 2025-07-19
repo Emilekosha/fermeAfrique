@@ -60,6 +60,9 @@ h2 {
   font-size: 1.1rem;
   margin-bottom: 30px;
 }
+#contact .info {
+  font-size: 25px;
+}
 
 .contact-locations {
   display: flex;
